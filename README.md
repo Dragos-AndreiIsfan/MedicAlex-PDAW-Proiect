@@ -62,3 +62,7 @@ Aplicația a fost dezvoltată folosind:
 ---
 
 ## Proiect Academic
+
+## DISCLAIMER
+
+Numele pacientilor si al doctorilor a fost generat aleator.
