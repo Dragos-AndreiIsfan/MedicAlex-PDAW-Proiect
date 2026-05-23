@@ -63,6 +63,6 @@ Aplicația a fost dezvoltată folosind:
 
 ## Proiect Academic
 
-## DISCLAIMER
+### Disclaimer
 
-Numele pacientilor si al doctorilor a fost generat aleator.
+Numele pacienților și al doctorilor utilizate în această aplicație au fost generate aleator, fiind folosite exclusiv în scop demonstrativ și educațional. Orice asemănare cu persoane reale este pur întâmplătoare.
