@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>MedicAlex.Api</RootNamespace>
+    <AssemblyName>MedicAlex.Api</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- PostgreSQL driver -->
+    <PackageReference Include="Npgsql"                              Version="8.0.3" />
+    <!-- Micro-ORM — query-uri SQL simple -->
+    <PackageReference Include="Dapper"                             Version="2.1.35" />
+    <!-- BCrypt hashing parole -->
+    <PackageReference Include="BCrypt.Net-Next"                    Version="4.0.3" />
+    <!-- JWT autentificare -->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt"   Version="8.0.2" />
+    <!-- Variabile de mediu din .env -->
+    <PackageReference Include="DotNetEnv"                          Version="3.1.1" />
+    <!-- CORS + Swagger -->
+    <PackageReference Include="Swashbuckle.AspNetCore"             Version="6.6.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+..
+backend/MedicAlex.Api/bin
+backend/MedicAlex.Api/obj
+backend/MedicAlex.Api/.env
+pdaw-proiect/
+pdaw-proiect.zip
+pwpgsql.txt
+database/queries_utile.sql
+frontend/node_modules

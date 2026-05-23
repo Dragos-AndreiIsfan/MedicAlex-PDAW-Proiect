@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-display: 'DM Serif Display', serif;
+  --font-ui:      'Plus Jakarta Sans', sans-serif;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-ui);
+  background: #040d1a;
+  color: #e8edf5;
+  line-height: 1.6;
+}
+
+#app {
+  min-height: 100vh;
+}

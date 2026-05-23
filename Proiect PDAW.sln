@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pdaw-proiect", "pdaw-proiect", "{DD5ED19F-3ADD-5314-4851-8856E967E5BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicAlex.Api", "backend\MedicAlex.Api\MedicAlex.Api.csproj", "{A5D0A9E1-8639-7E76-E65B-7E76F328F203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{F069816E-CE28-CBA4-E3D1-0BA9D498DA84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicAlex.Api", "pdaw-proiect\backend\MedicAlex.Api\MedicAlex.Api.csproj", "{DC4CD3F9-5E96-9578-DC61-C6D2F56E8AB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5D0A9E1-8639-7E76-E65B-7E76F328F203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D0A9E1-8639-7E76-E65B-7E76F328F203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D0A9E1-8639-7E76-E65B-7E76F328F203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D0A9E1-8639-7E76-E65B-7E76F328F203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4CD3F9-5E96-9578-DC61-C6D2F56E8AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4CD3F9-5E96-9578-DC61-C6D2F56E8AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4CD3F9-5E96-9578-DC61-C6D2F56E8AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4CD3F9-5E96-9578-DC61-C6D2F56E8AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5D0A9E1-8639-7E76-E65B-7E76F328F203} = {1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}
+		{F069816E-CE28-CBA4-E3D1-0BA9D498DA84} = {DD5ED19F-3ADD-5314-4851-8856E967E5BB}
+		{DC4CD3F9-5E96-9578-DC61-C6D2F56E8AB5} = {F069816E-CE28-CBA4-E3D1-0BA9D498DA84}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB3504CB-4671-4C99-914F-C194ADD41C2D}
+	EndGlobalSection
+EndGlobal
